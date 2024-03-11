@@ -34,13 +34,21 @@ body {
     font-size: 50px;
     text-align: center;
 }
-
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home p{
+    font-size: 2.4vw;
+    color: grey;
+}
 .disc{
-    position: relative;
+    position: absolute;
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 2px solid grey;
+    border: 2px solid rgb(104, 104, 104);
     transform: scale(0.8);
 }
 .active{
@@ -62,7 +70,7 @@ body {
 }.b{
     background-color: #0cb5e871;
 }.r{
-    background-color: #c7010171;
+    background-color: #f007079a;
 }
 @media screen and (min-width: 768px) {
     .board {
@@ -152,6 +160,7 @@ body {
     border-collapse: collapse;
     border: 1px solid #857da5d3 ;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .safe {
